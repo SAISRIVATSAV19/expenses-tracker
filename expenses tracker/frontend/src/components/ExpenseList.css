@@ -1,0 +1,51 @@
+/* src/components/ExpenseList.css */
+
+.expense-list {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.list-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #2d3748;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.3s ease;
+}
+
+.expense-item:hover {
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+
+.expense-title {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.expense-details {
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.category {
+  color: #718096;
+  font-style: italic;
+}
